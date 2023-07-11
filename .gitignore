@@ -55,7 +55,19 @@ cover/
 *.mo
 *.pot
 
-# Django stuff:
+### react ###
+.DS_*
+logs
+**/*.backup.*
+**/*.back.*
+
+node_modules
+bower_components
+
+### Django ###
+*.pot
+*.pyc
+media
 *.log
 local_settings.py
 db.sqlite3
